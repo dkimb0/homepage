@@ -35,14 +35,15 @@ html {
 
 .heroTitle {
     position: absolute;
-    top: 45vh;
+    bottom: 20vw;
     left: 15vw;
     color: white;
     text-shadow: 1px 1px 10px black;
     font-size: 4rem;
 }
 
-.hero > h1 {
+.hero > h1,
+.projectContainer > h1 {
     text-align: center;
     font-size: 3rem;
 }
@@ -72,6 +73,34 @@ html {
     height: auto;
 }
 
+.inlineIcon {
+    width: 1.5rem;
+    height: auto;
+}
+
 .projectContainer {
     display: grid;
+    gap: 1.5rem;
+}
+
+.projectCard {
+    width: 80vw;
+    box-shadow: 1px 1px 5px black;
+    grid-template-rows: 1fr;
+    justify-self: center;
+    padding-bottom: 10vh;
+}
+
+.projectCardHeader {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectCard > img {
+    max-width: 100%;
+}
+
+.projectCard > p {
+    text-align: center;
+    font-size: 1.5rem;
 }
