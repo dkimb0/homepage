@@ -5,8 +5,6 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-
-
 .shapeContainer {
     position: absolute;
     z-index: -1;
@@ -136,8 +134,8 @@ footer > p {
 }
 
 .footerImg {
-    width: 100%;
-    object-fit: contain;
+    width: 100vw;
+    height: auto;
 }
 
 html {
