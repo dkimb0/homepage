@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.shapeContainer {
+    position: absolute;
+    z-index: -1;
+    filter: drop-shadow(grey 1px 1px 5px)
+}
+
+.shape {
+    width: 100vw;
+    height: 70vh;
+    background-color:#418faf;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%);
+}
+
+.imageContainer{
+    padding-top: 5vh;
+}
+.portraitTop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px;
+
+}
